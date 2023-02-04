@@ -7,14 +7,30 @@
     "airbnb-base"
   ],
   "rules":{
-    "no-console": "off",
+    "array-bracket-newline": ["error", {
+      "multiline": true
+    }],
+    "array-element-newline": ["error", {
+      "ArrayExpression": "always",
+      "ArrayPattern": "consistent"
+    }],
     "comma-dangle": "off",
-    "no-underscore-dangle": "off",
-    "quotes": ["error", "double"],
-    "func-names": "off",
-    "function-paren-newline": "off",
-    "object-curly-newline": "off",
+    "function-call-argument-newline": ["error", "consistent"],
+    "function-paren-newline": ["error", "consistent"],
+    "import/extensions": "off",
+    "import/no-mutable-exports": "off",
+    "import/no-unresolved": "off",
+    "import/prefer-default-export": "off",
+    "lines-between-class-members": "off",
+    "no-await-in-loop": "off",
+    "no-console": "off",
     "no-nested-ternary": "off",
-    "import/prefer-default-export": "off"
+    "no-underscore-dangle": "off",
+    "no-param-reassign": "off",
+    "no-restricted-syntax": "off",
+    "object-curly-newline": ["error", {
+      "multiline": true
+    }],
+    "quotes": ["error", "double"]
   }
 }
