@@ -9,7 +9,7 @@
   "parserOptions": {
     "ecmaVersion": 2022
   },
-  "rules":{
+  "rules": {
     "array-bracket-newline": ["error", {
       "multiline": true
     }],
