@@ -1,6 +1,6 @@
 {
   "name": "core-cjs",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A core JavaScript starter project in CommonJS",
   "license": "MIT",
   "main": "src/index.js",
@@ -13,9 +13,11 @@
   "devDependencies": {
     "@types/mocha": "^10.0.0",
     "@types/node": "^18.11.9",
+    "@types/sinon": "^10.0.13",
     "eslint": "8.22.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "mocha": "^10.2.0",
+    "sinon": "^15.0.1",
     "typescript": "^4.9.5"
   }
 }
