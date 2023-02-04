@@ -1,8 +1,6 @@
 {
   "name": "core-cjs",
-  "version": "0.3.0",
-  "description": "A core JavaScript starter project in CommonJS",
-  "license": "MIT",
+  "version": "0.3.1",
   "main": "src/index.js",
   "scripts": {
     "lint": "eslint .",
