@@ -1,4 +1,4 @@
-# README.md
+# Core Starter
 
 A core JavaScript starter project in CommonJS
 
