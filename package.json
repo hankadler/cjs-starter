@@ -1,13 +1,12 @@
 {
   "name": "core-cjs",
   "version": "0.1.0",
-  "description": "",
+  "description": "A core JavaScript starter project in CommonJS",
   "license": "MIT",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
-    "test": "mocha",
-    "tests": "mocha --recursive"
+    "test": "mocha"
   },
   "devDependencies": {
     "@types/inquirer": "^9.0.3",
